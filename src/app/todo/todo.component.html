@@ -12,4 +12,4 @@
         <app-todo-item *ngFor="let todo of todos" [todo]="todo" (deleteTodo)="onDelete($event)"></app-todo-item>
       </ul>
   </div>
-  <p *ngIf="todos.length == 0" class="alert-danger text-center">Trenutno ne postoji ni jedan zadatak</p>
+  <p *ngIf="todos.length == 0" class="alert-danger text-center">Trenutno ne postoji opcija brisanja je nam je niz prazan</p>
